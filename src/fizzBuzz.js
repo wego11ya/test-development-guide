@@ -38,9 +38,4 @@ function fizzBuzz(n) {
     return result;
 }
 
-// test case
-console.log(fizzBuzz(3))
-console.log(fizzBuzz(5))
-console.log(fizzBuzz(15))
-
-
+module.exports = fizzBuzz;

@@ -20,6 +20,4 @@ function findNeedle(haystack, needle) {
     return haystack.indexOf(needle);
 }
 
-// Test cases
-console.log(findNeedle("sadbutsad", "sad")); // Output: 0
-console.log(findNeedle("leetcode", "leeto")); // Output: -1
+module.exports = findNeedle;
